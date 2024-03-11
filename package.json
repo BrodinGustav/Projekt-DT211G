@@ -2,10 +2,17 @@
   "name": "projekt-dt211g",
   "version": "1.0.0",
   "description": "Projekt DT211G",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "author": "Gustav Brodin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "htmlnano": "^2.1.0",
+    "parcel": "^2.12.0",
+    "uglifycss": "^0.0.29",
+    "uglifyjs": "^2.4.11"
+  }
 }
