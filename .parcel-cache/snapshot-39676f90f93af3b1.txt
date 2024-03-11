@@ -1,4 +1,4 @@
-6034
+6035
 122C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\AttributeSelector.js133546337693549726 0
 57C:\Utbildning\DT211G\Projekt DT211G\node_modules\readdirp133546345633032761 1
 67C:\Utbildning\DT211G\Projekt DT211G\node_modules\globals\index.d.ts133546337691347665 0
@@ -87,7 +87,7 @@
 65C:\Utbildning\DT211G\Projekt DT211G\src\sass\layouts\_button.scss133546347827523544 0
 80C:\Utbildning\DT211G\Projekt DT211G\node_modules\caniuse-lite\data\regions\GT.js133546337709070740 0
 74C:\Utbildning\DT211G\Projekt DT211G\node_modules\semver\functions\patch.js133546337697100436 0
-42C:\Utbildning\DT211G\Projekt DT211G\bilder133546345862993288 1
+42C:\Utbildning\DT211G\Projekt DT211G\bilder133546371640763053 1
 82C:\Utbildning\DT211G\Projekt DT211G\node_modules\css-tree\lib\lexer\match-graph.js133546337705757563 0
 63C:\Utbildning\DT211G\Projekt DT211G\src\sass\layouts\_body.scss133546347639688051 0
 76C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\bundler-default\lib133546337688187685 1
@@ -1533,6 +1533,7 @@
 98C:\Utbildning\DT211G\Projekt DT211G\node_modules\css-select\node_modules\domutils\lib\helpers.d.ts133546337699248007 0
 86C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\src\prettyDiagnostic.js133546337699783404 0
 71C:\Utbildning\DT211G\Projekt DT211G\node_modules\css-tree\lib\generator133546337706594748 1
+46C:\Utbildning\DT211G\Projekt DT211G\.gitignore133546369946217713 0
 66C:\Utbildning\DT211G\Projekt DT211G\node_modules\lmdb\src\misc.cpp133546337702062817 0
 72C:\Utbildning\DT211G\Projekt DT211G\node_modules\semver\classes\range.js133546337697398935 0
 80C:\Utbildning\DT211G\Projekt DT211G\node_modules\caniuse-lite\data\regions\JM.js133546337710386738 0
@@ -4917,7 +4918,7 @@
 93C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\test\input\sourcemap\inline.js133546337699047328 0
 101C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js133546337700150430 0
 102C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133546337702964015 0
-58C:\Utbildning\DT211G\Projekt DT211G\bilder\background2.jpg133546165658249616 0
+58C:\Utbildning\DT211G\Projekt DT211G\bilder\background2.jpg133546335460000000 0
 88C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\test\input\config\.testrc133546337687954342 0
 90C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\test\input\config\config.js133546337693470687 0
 91C:\Utbildning\DT211G\Projekt DT211G\node_modules\@parcel\utils\test\input\config\empty.json133546337701344575 0
@@ -6028,8 +6029,8 @@
 62C:\Utbildning\DT211G\Projekt DT211G\node_modules\.bin\svgo.ps1133546337719521730 0
 63C:\Utbildning\DT211G\Projekt DT211G\node_modules\.bin\uglifycss133546339379846572 0
 76C:\Utbildning\DT211G\Projekt DT211G\node_modules\.bin\update-browserslist-db133546337719547036 0
-57C:\Utbildning\DT211G\Projekt DT211G\bilder\background.jpg133543243355429991 0
 59C:\Utbildning\DT211G\Projekt DT211G\dist\index.f7626f62.css133546363293015308 0
 63C:\Utbildning\DT211G\Projekt DT211G\dist\index.f7626f62.css.map133546363293067814 0
 51C:\Utbildning\DT211G\Projekt DT211G\dist\index.html133546363293480283 0
 62C:\Utbildning\DT211G\Projekt DT211G\dist\index.18dbc454.js.map133546368859007338 0
+46C:\Utbildning\DT211G\Projekt DT211G\readme.txt133546370002875343 0

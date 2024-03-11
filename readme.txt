@@ -1,0 +1,5 @@
+-- Installerat baspaket tillsammans med parcel
+-- Ordnat mappstruktur för sass
+-- Ordnat med layout för sass-filer samt mediaqueries
+-- Löst problem med "unexpect null" vid försök med "npm run start". Rensade cache och tog bort node_modules, installerade/uppdaterade om parcel.
+-- Kör "run build"
