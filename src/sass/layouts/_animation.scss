@@ -14,15 +14,12 @@
     5% { transform: skewY(15deg); }
     10% { transform: skewY(-15deg); }
     15% { transform: skewY(15deg); }
-    20% { transform: skewY(0deg); }
-    100% { transform: skewY(0deg); }
    }
   
   .logga-animation:hover{
     animation: shake-logga infinite;
     animation-duration: 10s;
     animation-timing-function: ease-in;
-    animation-delay: 0;
   }
   
   /*-----------------------------------------------------*/
@@ -40,7 +37,6 @@
     animation: tilt-shaking infinite;
     animation-duration: 1s;
     animation-timing-function: ease-in;
-    animation-delay: 0;
   }
   
   

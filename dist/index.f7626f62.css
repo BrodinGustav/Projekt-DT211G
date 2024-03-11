@@ -119,19 +119,10 @@
   15% {
     transform: skewY(15deg);
   }
-
-  20% {
-    transform: skewY(0);
-  }
-
-  100% {
-    transform: skewY(0);
-  }
 }
 
 .logga-animation:hover {
   animation: 10s ease-in infinite shake-logga;
-  animation-delay: 0;
 }
 
 @keyframes tilt-shaking {
@@ -158,7 +149,6 @@
 
 #searchButton:hover {
   animation: 1s ease-in infinite tilt-shaking;
-  animation-delay: 0;
 }
 
 .marker-bounce {
