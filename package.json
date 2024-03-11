@@ -1,0 +1,11 @@
+{
+  "name": "projekt-dt211g",
+  "version": "1.0.0",
+  "description": "Projekt DT211G",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustav Brodin",
+  "license": "ISC"
+}
