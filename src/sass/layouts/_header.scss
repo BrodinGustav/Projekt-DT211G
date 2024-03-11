@@ -1,0 +1,13 @@
+@use "../abstracts/base";
+
+header{
+    background-image: url('/bilder/background2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-bottom:2em;
+    position:relative;
+    max-width: 100%;
+    border-bottom:2px solid orange;
+}
+

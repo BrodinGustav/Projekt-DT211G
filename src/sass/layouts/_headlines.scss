@@ -1,0 +1,41 @@
+@use "../abstracts/base";
+
+h1{
+    font-size:base.$h1-font-size;
+    color:base.$header-text-color;
+
+@media (max-width: 320px){
+ font-size:2em;
+ text-align: left;
+ display: flex;
+ justify-content: center;
+ margin-left:0.5em;
+}
+@media (min-width: 321px) and (max-width: 768px){
+    font-size:2em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-left:0.5em;
+    padding:1em;
+    padding-top:0; 
+    padding-bottom:0;  
+}
+ 
+@media (min-width: 768px){
+    font-size:2em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-left:2em;   
+}
+
+@media (min-width: 2560px){
+    font-size:4em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-left:0.5em;   
+}
+
+}

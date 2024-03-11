@@ -1,0 +1,109 @@
+@use "../abstracts/base";
+
+#cityInfoContainer{
+    position:absolute;
+    top:20em;
+    left:2em;
+    background-color:base.$cityInfo-background-color;
+    border-radius: 50%;
+    border:5px black double;
+    box-shadow: 1px 1px 5px 2px black;
+    padding:1.5em;
+    display:none;
+    text-align: center;
+
+    @media (max-width: 320px){
+        display: flex;
+        flex-direction: column;
+        position:static;
+        width:50vw;
+        margin:0 auto;
+        margin-top:2em;
+        display:none;
+    }
+
+    @media (min-width: 321px) and (max-width: 768px){
+        display: flex;
+    flex-direction: column;
+    position:static;
+    width:10em;
+    margin:0 auto;
+    margin-top:2em;
+    display:none;
+       }
+
+       @media (min-width: 768px) and (max-width: 1024px){
+    display: flex;
+    flex-direction: column;
+    position:static;
+    width:10em;
+    margin:0 auto;
+    margin-top:2em;
+    display:none;
+       }
+
+       @media (min-width: 1024px) and (max-width: 1440px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left:2em;
+        width:10em;
+        display:none;   
+    }
+
+    @media (min-width: 1440px) and (max-width: 1640px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left:8em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 1640px) and (max-width: 1840px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left:19em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 1840px) and (max-width: 2040px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left:24em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 2040px) and (max-width: 2340px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left:31em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 2340px) and (max-width: 2560px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left:39em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 2560px){
+        display: flex;
+        position:absolute;
+        top:20em;
+        left: 16em;
+        width:7em;
+        font-size:2em;
+        display:none;   
+    }
+}
+

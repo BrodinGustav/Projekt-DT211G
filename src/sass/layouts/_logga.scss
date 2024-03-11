@@ -1,0 +1,22 @@
+@use "../abstracts/base";
+
+.logga-animation{
+    width:4em;
+    height:auto;
+
+@media (max-width: 320px){
+    width:3em;
+    margin-left:2em;
+}
+
+@media (min-width: 320px){
+    width:3em;
+    margin-left:2em;
+}
+
+@media (min-width: 2560px){
+    width:5em;
+    margin-left:2em;
+}
+
+}

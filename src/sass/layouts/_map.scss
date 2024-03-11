@@ -1,0 +1,47 @@
+@use "../abstracts/base";
+
+#map{
+    height:400px;
+    width:400px;
+    display:flex;
+    margin:0 auto;
+    position:relative;
+    margin-bottom:2em;
+
+@media (max-width: 320px){
+    height:25em;
+    width:25em;
+}
+
+@media (min-width: 321px) and (max-width: 768px){
+    height:70vw;
+    width:70vw;
+   }
+
+
+   @media (min-width: 768px) and (max-width: 1024px){
+    height:50vw;
+    width:50vw;
+   }
+
+   
+   @media (min-width: 1024px) {
+    height:400px;
+    width:400px;
+   }
+
+   @media (min-width: 1624px) {
+    height:400px;
+    width:400px;
+   }
+
+   @media (min-width: 1824px) {
+    height:400px;
+    width:400px;
+   }
+
+  @media (min-width: 2560px) {
+    height:700px;
+    width:700px;
+   }
+}

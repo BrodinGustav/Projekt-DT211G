@@ -1,0 +1,111 @@
+@use "../abstracts/base";
+
+#weatherContainer{
+position:absolute;
+top:5em;
+left:2em;
+box-shadow: 1px 1px 3px 2px black;
+border-radius:10%;
+color:white;
+margin-top:2em;
+padding:1em;
+animation: fadeInOut 8s ease-in-out infinite alternate;
+display:none;
+
+
+@media (max-width: 320px){
+    display: flex;
+    flex-direction: column;
+    position:static;
+    width:60vw;
+    margin:0 auto;
+    margin-top:2em;
+    display:none;
+}
+
+@media (min-width: 321px){
+    display: flex;
+    flex-direction: column;
+    position:static;
+    width:15em;
+    margin:0 auto;
+    margin-top:2em;
+    display:none;   
+}
+
+    @media (min-width: 768px) and (max-width: 1024px){
+        display: flex;
+        flex-direction: column;
+        position:static;
+        width:15em;
+        margin:0 auto;
+        margin-top:2em;
+        display:none;   
+    }
+
+        @media (min-width: 1024px) and (max-width: 1440px){
+            display: flex;
+            position:absolute;
+            top:5em;
+            left:1em;
+            width:15em;
+            display:none;   
+        }
+    
+
+    @media (min-width: 1440px) and (max-width: 1640px){
+        display: flex;
+        position:absolute;
+        top:5em;
+        left:10em;
+        width:15em;
+        display:none;   
+    }
+  
+    @media (min-width: 1640px) and (max-width: 1840px){
+        display: flex;
+        position:absolute;
+        top:5em;
+        left:20em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 1840px) and (max-width: 2040px){
+        display: flex;
+        position:absolute;
+        top:5em;
+        left:25em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 2040px) and (max-width: 2340px){
+        display: flex;
+        position:absolute;
+        top:5em;
+        left:32em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 2340px) and (max-width: 2560px){
+        display: flex;
+        position:absolute;
+        top:5em;
+        left:40em;
+        width:15em;
+        display:none;   
+    }
+
+    @media (min-width: 2560px){
+        display: flex;
+        position:absolute;
+        top:5em;
+        left:15em;
+        width:10em;
+        font-size:2em;
+        display:none;   
+    }
+
+}

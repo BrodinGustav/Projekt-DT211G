@@ -1,0 +1,40 @@
+@use "../abstracts/base";
+
+#searchButton{
+    display: flex;
+    margin:0 auto;
+    background: linear-gradient(to right, #cb7204, #ffaf00);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+    @media (min-width: 2560px){
+        font-size:1.5em;
+        text-align:center;
+        margin:0 auto;
+    }
+
+}
+
+#searchButton:hover{
+background-color:orange;
+box-shadow: 0 1px 35px 5px orange; 
+}
+
+#searchInput{
+    display:flex;
+    margin:0 auto;
+    margin-bottom:1em;
+
+    @media (min-width: 2560px){
+        font-size:1.5em;
+        text-align:center;
+        margin:0 auto;
+        margin-bottom:1em;
+    }
+
+}
+

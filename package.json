@@ -10,6 +10,7 @@
   "author": "Gustav Brodin",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "htmlnano": "^2.1.0",
     "parcel": "^2.12.0",
     "uglifycss": "^0.0.29",

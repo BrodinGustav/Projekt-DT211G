@@ -1,0 +1,9 @@
+@use "../abstracts/base";
+
+.marker-bounce {
+  /* Grundläggande stil för markern */
+  background-image: url('/bilder/marker.svg');
+  background-size:cover; /* Justera storleken på bakgrundsbilden */
+  display: none;
+ 
+}
